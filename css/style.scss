@@ -1,0 +1,35 @@
+$color: #9bf017;
+
+ul {
+  font-size: 14px;
+  color: $color;
+}
+
+ol {
+  font-size: 18px;
+  color: $color;
+}
+
+.container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+.container > div {
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                ///width: 200px;
+            }
+
+@media (min-width: 500px) {
+                            h1::before {
+                                content: "Welcome to My Web Page!";
+                            }
+                        }
+@media (max-width: 499px) {
+                            h1::before {
+                                content: "Welcome!";
+                            }
+                        }

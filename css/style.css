@@ -1,0 +1,26 @@
+ul {
+  font-size: 14px;
+  color: #9bf017; }
+
+ol {
+  font-size: 18px;
+  color: #9bf017; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.container > div {
+  background-color: springgreen;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px; }
+
+@media (min-width: 500px) {
+  h1::before {
+    content: "Welcome to My Web Page!"; } }
+@media (max-width: 499px) {
+  h1::before {
+    content: "Welcome!"; } }
+
+/*# sourceMappingURL=style.css.map */
